@@ -21,10 +21,26 @@ html {
 body {
     background-color: var(--background);
     color: var(--text);
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 
 a {
     text-decoration: none;
     color: var(--text);
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 2.5rem 5rem;
+    gap: 10rem;
+
+    li {
+        font-size: 2.5rem;
+    }
+
+    li:nth-child(1) {
+        margin-right: auto;
+    }
 }
