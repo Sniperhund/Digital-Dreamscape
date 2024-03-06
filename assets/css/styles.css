@@ -1,5 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --text: #e7f7ec;
+    --background: #040a06;
+    --primary: #8ed9a5;
+    --secondary: #2b407e;
+    --accent: #5945bf;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
 }
