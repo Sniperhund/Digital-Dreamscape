@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
 :root {
     --text: #e7f7ec;
     --background: #040a06;
