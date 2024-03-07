@@ -10,7 +10,21 @@ h1 {
     font-size: 120px;
 }
 
-header {flex-direction: column;
-    marg
+header {
+    flex-direction: column;
+    margin: 0 auto;
+}
 
+.styles {
+    display: inline-block;
+    background-color: #8ed9a5;
+    padding: 18px 78px;
+    width: 275px;
+    height: 70px;
+    font-size: 25px;
+    font-weight: 600px;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #8ed9a5;
 }
