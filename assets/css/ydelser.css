@@ -1,0 +1,55 @@
+section {
+    display: flex;
+    padding: 220px 0 0;
+    margin: 0 auto;
+    margin-bottom: 88px;
+    justify-content: space-around;
+
+    article {
+        padding: 90px 56px 74px;
+        max-width: 42.5rem;
+        background-color: white;
+        border-radius: 10px;
+
+        color: black;
+
+        position: relative;
+
+        text-align: center;
+
+        div {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            position: absolute;
+            top: -75px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            background-color: white;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+
+            font-size: 6.6rem;
+        }
+
+        h2 {
+            font-size: 3.6rem;
+            font-weight: 600;
+            margin-bottom: 3rem;
+        }
+
+        p {
+            font-size: 1.8rem;
+            font-weight: 400;
+        }
+    }
+}
+
+.btn {
+    margin: 0 auto;
+}

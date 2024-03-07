@@ -3,7 +3,87 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Kontakt - Digital Dreamscape</title>
+        <link rel="stylesheet" href="/assets/css/styles.css" />
+        <link rel="stylesheet" href="/assets/css/kontakt.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <script src="/assets/js/app.js" defer></script>
+        <script src="/assets/js/kontakt.js" defer></script>
     </head>
-    <body></body>
+    <body>
+        <div class="front">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/">
+                            <img
+                                src="/assets/imgs/Logo.svg"
+                                alt="Digital Dreamscape"
+                            />
+                        </a>
+                    </li>
+                    <li><a href="/ydelser.html">Ydelser</a></li>
+                    <li><a href="/nyheder.html">Nyheder</a></li>
+                    <li><a href="/om-os.html">Om os</a></li>
+                    <li><a href="/kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <header>
+                <h1>Kontakt</h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ex.
+                </p>
+
+                <img
+                    src="/assets/imgs/Scroll_arrow.svg"
+                    alt="Scroll"
+                    id="scroll"
+                />
+            </header>
+        </div>
+
+        <section>
+            <form id="kontakt">
+                <input type="text" name="navn" id="navn" placeholder="Navn" />
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                />
+                <input type="text" name="emne" id="emne" placeholder="Emne" />
+                <textarea
+                    name="besked"
+                    id="besked"
+                    cols="30"
+                    rows="10"
+                    placeholder="Besked"
+                ></textarea>
+                <input type="submit" value="Send" />
+            </form>
+        </section>
+
+        <footer>
+            <div>
+                <p>Tlf: +3 572 266 2320</p>
+                <p>Mail: mail@digitaldreamscape.dk</p>
+                <br />
+                <p>© Copyright Digital Dreamscape 2024</p>
+            </div>
+
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </footer>
+    </body>
 </html>
