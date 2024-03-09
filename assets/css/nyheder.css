@@ -43,5 +43,51 @@
     section {
         display: flex;
         justify-content: space-around;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .news {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .news {
+        padding: 0 20px;
+
+        article {
+            h3 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .news {
+        article {
+            h3 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.6rem;
+            }
+        }
+
+        .large-news {
+            margin-bottom: 20px;
+        }
+
+        section {
+            flex-direction: column;
+            gap: 20px;
+        }
     }
 }

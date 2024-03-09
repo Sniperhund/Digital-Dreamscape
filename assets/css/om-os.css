@@ -3,12 +3,30 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     row-gap: 20px;
 
     p {
-        font-size: 1.3rem;
-        max-width: 600px;
+        font-size: 1.7rem;
+        max-width: 60%;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 0 20px;
+
+        p {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    section {
+        p {
+            max-width: 100%;
+        }
     }
 }
